@@ -1,0 +1,22 @@
+# @name getAllCategories
+GET http://localhost:3000/api/categories
+
+###
+
+# @name addNewCategory
+POST http://localhost:3000/api/categories
+Content-Type: application/json
+
+{
+    "name": "Điện Thoại 05"
+}
+
+###
+
+# @name updateCategory
+PATCH  http://localhost:3000/api/categories/e5e561dd-6423-43b5-adac-bb11609ce03c
+Content-Type: application/json
+
+{
+    "name": "New Điện Thoại 05"
+}
